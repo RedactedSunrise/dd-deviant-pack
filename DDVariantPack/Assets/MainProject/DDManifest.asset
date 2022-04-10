@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8769751209263050744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a82fec78ebc734d9ad1346cd40b5f9, type: 3}
+  m_Name: ThunderstoreData
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPath>
+  url: https://github.com/RedactedSunrise/dd-variant-pack
+--- !u!114 &-3776728301811939752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPathAssets>
+  assetBundles:
+  - assetBundleName: DDAssets
+    assets:
+    - {fileID: 102900000, guid: 0e0bb27f0c7a4d34aa2768b5b060f93e, type: 3}
+--- !u!114 &-310433267781314638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPathSoundbanks>
+  files:
+  - {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: DDManifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 4127203143634070410}
+  - {fileID: 1975540371585633507}
+  - {fileID: -3776728301811939752}
+  - {fileID: -310433267781314638}
+  - {fileID: 2859030432807246614}
+  - {fileID: -8769751209263050744}
+  - {fileID: 2080011467991178345}
+  identity: {fileID: 4127203143634070410}
+  QuickAccess: 0
+--- !u!114 &1975540371585633507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPathPlugins>
+  definitions:
+  - {fileID: 5897886265953266890, guid: e326a53825291cd498127be513b0cd76, type: 3}
+--- !u!114 &2080011467991178345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPath>
+  files:
+  - {fileID: 4900000, guid: 91004fe24b942774195a76957602998f, type: 3}
+  - {fileID: 0}
+--- !u!114 &2859030432807246614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3230df44b431ebc49a958dde5afa4f88, type: 3}
+  m_Name: LanguageFolderTree
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPathPlugins>
+  rootFolderName: DDLang
+  languageFolders:
+  - languageName: en
+    languageFiles: []
+--- !u!114 &4127203143634070410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPlugingStaging>
+  Author: DDTeam
+  Name: DDVariantPack
+  Description: The RoR1 Survivor Variants from DeegerDill, ported to RoR2
+  Version: 0.0.1
+  Dependencies:
+  - {fileID: 11400000, guid: a8ac6a3e325999651bd53f63760e6ff0, type: 2}

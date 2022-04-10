@@ -76,7 +76,7 @@ DDVariantPack/[Pp]ackages/[Rr]isk of Rain 2/[Pp]lugins/*.dll
 DDVariantPack/[Aa]ssets/YAMLShaders/*/*.asset
 
 #Thunderkit Related
-DDVariantPack/Assets/ThunderKitSettings/EnabledAndDisabledInspectorsSettings.asset
+DDVariantPack\Assets\ThunderKitSettings\EditorInspectorSettings.asset
 DDVariantPack/Assets/ThunderKitSettings/RoR2.asset
 DDVariantPack/Assets/ThunderKitSettings/Logs/*
 DDVariantPack/Assets/ThunderKitSettings/ThunderKit Extensions.asset
