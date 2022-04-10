@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "bbepis-bepinexpack": {
+      "version": "file:BepInExPack",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.passivepicasso.thunderkit": {
       "version": "https://github.com/PassivePicasso/ThunderKit.git#RC_5_0_0",
       "depth": 0,
@@ -46,8 +52,56 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "iharbhd-debugtoolkit": {
+      "version": "file:DebugToolkit",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "riskofrain2": {
       "version": "file:Risk of Rain 2",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-fixplugintypesserialization": {
+      "version": "file:FixPluginTypesSerialization",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-hookgenpatcher": {
+      "version": "file:HookGenPatcher",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-ror2editorkit": {
+      "version": "file:RoR2EditorKit",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-ror2multiplayerhlapi": {
+      "version": "file:RoR2MultiplayerHLAPI",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "teammoonstorm-moonstormsharededitorutils": {
+      "version": "file:MoonstormSharedEditorUtils",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "teammoonstorm-moonstormsharedutils": {
+      "version": "file:MoonstormSharedUtils",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "tristanmcpherson-r2api": {
+      "version": "file:R2API",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
